@@ -12,3 +12,8 @@ for numbers in itertools.combinations(entries, 3):
         break
 
 # If Python v3.8, can use math.prod instead
+'''
+Similar to p1, this is the three sum problem, which would combine
+the original code I wrote for p1 with the dict, i.e. check the 
+existence of the complement for each pair.
+'''
